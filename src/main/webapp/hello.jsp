@@ -15,10 +15,7 @@
     <button type="button" class="btn btn-default">Left</button>
     <button type="button" class="btn btn-default">Middle</button>
     <button type="button" class="btn btn-default">Right</button>
-</div>
-
-<div>
-    <a href="javascript:history.back()">Go Back</a>
+    <a class="btn" href="javascript:history.back()">Go Back</a>
 </div>
 
 <script src="<c:url value="bootstrap/js/bootstrap.min.js"/>"></script>

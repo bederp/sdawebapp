@@ -11,10 +11,10 @@
 <body>
 <h1>Simple.jsp</h1>
 
-<div class="btn-group">
+<div>
     <p>The square root of 5 is <%= Math.sqrt(5) %></p>
     <p>Current time is: <%=  new java.util.Date() %></p>
-    <a href="javascript:history.back()">Go Back</a>
+    <a class="btn btn-block pull-left" href="javascript:history.back()">Go Back</a>
 </div>
 
 <script src="<c:url value="bootstrap/js/bootstrap.min.js"/>"></script>
