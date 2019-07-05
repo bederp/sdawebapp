@@ -12,11 +12,11 @@
 <h1>Index.jsp</h1>
 
 <div>
-    <a class="btn btn-primary" href="/simple.jsp" >Got to /simple.jsp</a>
-    <a class="btn btn-primary" href="simple.jsp" >Got to simple.jsp</a>
-    <a class="btn btn-primary" href="hello.jsp" >Got to hello.jsp</a>
-    <a class="btn btn-primary" href="HelloWorld" >Got to HelloWorld servlet</a>
-    <a href="javascript:history.back()">Go Back</a>
+    <a class="btn btn-primary" href="/simple.jsp" >/simple.jsp</a>
+    <a class="btn btn-primary" href="simple.jsp" >simple.jsp</a>
+    <a class="btn btn-primary" href="hello.jsp" >hello.jsp</a>
+    <a class="btn btn-primary" href="HelloWorld" >HelloWorld servlet</a>
+    <a class="btn" href="javascript:history.back()">Go Back</a>
 </div>
 
 <script src="<c:url value="bootstrap/js/bootstrap.min.js"/>"></script>
