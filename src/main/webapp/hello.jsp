@@ -9,13 +9,15 @@
     <link href="<c:url value="bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
 </head>
 <body>
-<h1>Index.jsp</h1>
+<h1>Hello.jsp</h1>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default">Left</button>
+    <button type="button" class="btn btn-default">Middle</button>
+    <button type="button" class="btn btn-default">Right</button>
+</div>
 
 <div>
-    <a class="btn btn-primary" href="/simple.jsp" >Got to /simple.jsp</a>
-    <a class="btn btn-primary" href="simple.jsp" >Got to simple.jsp</a>
-    <a class="btn btn-primary" href="hello.jsp" >Got to hello.jsp</a>
-    <a class="btn btn-primary" href="HelloWorld" >Got to HelloWorld servlet</a>
     <a href="javascript:history.back()">Go Back</a>
 </div>
 
